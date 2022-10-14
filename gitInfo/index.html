@@ -72,24 +72,41 @@ window.onload = wrap_img;
         <img src="https://ghchart.rshah.org/righthunkwon" alt="" style="width: 660px; height: 100px;">
 <div id="repos">
 <script>
+// 사용한 언어를 return해주는 함수
+const repoLanguage = async (repo) =>{
+    let response = await fetch(`https://api.github.com/repos/righthunkwon/${repo}/languages`,
+        {headers:{
+            'Accept' : 'application/vnd.github.v3+json',
+        }});
+    let resJson = await response.json()
+    let sumcodeline = Object.values(resJson).reduce((a, b) => a + b, 0)
+    s = ''
+    for (const [key, value] of Object.entries(resJson)) {
+        s += `${key} : ${(value/sumcodeline*100).toFixed(3)}%  `;
+    }
+    return s
+}
+
+
 // 비동기 작업을 위해 async function 선언
 const initRepo = async () =>{
-        const _username = 'righthunkwon'
-        
         // 추가할 dom선택
         const repoUl = document.getElementById("repos")
-
+        //갯수설정
+        const count = 5;
         // headers 설명 : 깃허브에 요청할 형식 지정
-        let response = await fetch('https://api.github.com/users/righthunkwon/repos',
+        let response = await fetch('https://api.github.com/users/righthunkwon/repos?'+
+                       'per_page='+count,
         {headers:{
-            'Accept' : 'application/vnd.github.v3+json'
+            'Accept' : 'application/vnd.github.v3+json',
         }});
         const repoJson = await response.json()
         // repo받아온 내용 확인
         // console.log(repoJson);
 
         // json내용을 map을 이용해 각 dom을 만들고 추가
-        repoJson.map((repos)=>{
+        // repoLanguage 함수의 비동기 작업을 위한 async function선언
+        repoJson.map(async (repos)=>{
             let h2Element = document.createElement("h2")
             h2Element.textContent = repos.name
 
@@ -100,14 +117,23 @@ const initRepo = async () =>{
             aElementURL.href = repos.svn_url
             aElementURL.textContent = repos.svn_url
 
+            //사용한 언어 불러오기
+            let language = await repoLanguage(repos.name)
+            let strongElementLang = document.createElement("strong")
+            strongElementLang.textContent = "사용언어 : " + language.toString()
+            
             //각 요소를 <div id="repos">에 추가
             repoUl.append(h2Element)
+            //사용언어부분 추가
+            repoUl.append(strongElementLang)
             repoUl.append(pElementDesc)
             repoUl.append(aElementURL)
             repoUl.append(document.createElement("br"))
         })
     }
     initRepo()
+    
+    
 </script>
 
       </div>
