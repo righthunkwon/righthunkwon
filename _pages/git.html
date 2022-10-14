@@ -1,0 +1,46 @@
+---
+layout: default
+permalink: /gitInfo/
+title: gitInfo
+search_exclude: true
+---
+<img src="https://ghchart.rshah.org/righthunkwon" alt="" style="width: 660px; height: 100px;">
+<div id="repos">
+<script>
+// 비동기 작업을 위해 async function 선언
+const initRepo = async () =>{
+        const _username = 'righthunkwon'
+        
+        // 추가할 dom선택
+        const repoUl = document.getElementById("repos")
+
+        // headers 설명 : 깃허브에 요청할 형식 지정
+        let response = await fetch('https://api.github.com/users/righthunkwon/repos',
+        {headers:{
+            'Accept' : 'application/vnd.github.v3+json'
+        }});
+        const repoJson = await response.json()
+        // repo받아온 내용 확인
+        // console.log(repoJson);
+
+        // json내용을 map을 이용해 각 dom을 만들고 추가
+        repoJson.map((repos)=>{
+            let h2Element = document.createElement("h2")
+            h2Element.textContent = repos.name
+
+            let pElementDesc = document.createElement("p")
+            pElementDesc.textContent = "레포설명 : " + repos.description
+
+            let aElementURL = document.createElement("a")
+            aElementURL.href = repos.svn_url
+            aElementURL.textContent = repos.svn_url
+
+            //각 요소를 <div id="repos">에 추가
+            repoUl.append(h2Element)
+            repoUl.append(pElementDesc)
+            repoUl.append(aElementURL)
+            repoUl.append(document.createElement("br"))
+        })
+    }
+    initRepo()
+</script>
