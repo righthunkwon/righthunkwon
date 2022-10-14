@@ -51,7 +51,9 @@
   
 
   
-      ,"page3": {
+
+  
+      ,"page4": {
           "title": "Sample",
           "content": "hello world . hello | hello | hello | .",
           "url": "https://righthunkwon.github.io/righthunkwon/sample/",
@@ -81,7 +83,7 @@
   
 
   
-      ,"page11": {
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://righthunkwon.github.io/righthunkwon/robots.txt",

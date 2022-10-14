@@ -4,20 +4,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>About Me | hello world!</title>
+<title>gitInfo | hello world!</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="About Me" />
+<meta property="og:title" content="gitInfo" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
 <meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
-<link rel="canonical" href="https://righthunkwon.github.io/righthunkwon/about/" />
-<meta property="og:url" content="https://righthunkwon.github.io/righthunkwon/about/" />
+<link rel="canonical" href="https://righthunkwon.github.io/righthunkwon/gitInfo/" />
+<meta property="og:url" content="https://righthunkwon.github.io/righthunkwon/gitInfo/" />
 <meta property="og:site_name" content="hello world!" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="About Me" />
+<meta property="twitter:title" content="gitInfo" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"An easy to use blogging platform with support for Jupyter Notebooks.","headline":"About Me","name":"hello world!","url":"https://righthunkwon.github.io/righthunkwon/about/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"An easy to use blogging platform with support for Jupyter Notebooks.","headline":"gitInfo","url":"https://righthunkwon.github.io/righthunkwon/gitInfo/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/righthunkwon/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://righthunkwon.github.io/righthunkwon/feed.xml" title="hello world!" /><link rel="shortcut icon" type="image/x-icon" href="/righthunkwon/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -69,25 +69,46 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
+        <img src="https://ghchart.rshah.org/righthunkwon" alt="" style="width: 660px; height: 100px;">
+<div id="repos">
+<script>
+// 비동기 작업을 위해 async function 선언
+const initRepo = async () =>{
+        const _username = 'righthunkwon'
+        
+        // 추가할 dom선택
+        const repoUl = document.getElementById("repos")
 
-  <header class="post-header">
-    <h1 class="post-title">About Me</h1>
-  </header>
+        // headers 설명 : 깃허브에 요청할 형식 지정
+        let response = await fetch('https://api.github.com/users/righthunkwon/repos',
+        {headers:{
+            'Accept' : 'application/vnd.github.v3+json'
+        }});
+        const repoJson = await response.json()
+        // repo받아온 내용 확인
+        // console.log(repoJson);
 
-  <div class="post-content">
-    <blockquote>
-  <p>09/28/2022 Start!</p>
-</blockquote>
+        // json내용을 map을 이용해 각 dom을 만들고 추가
+        repoJson.map((repos)=>{
+            let h2Element = document.createElement("h2")
+            h2Element.textContent = repos.name
 
-<h2 id="소개">소개</h2>
+            let pElementDesc = document.createElement("p")
+            pElementDesc.textContent = "레포설명 : " + repos.description
 
-<p>27살에 한국외국어대학교에서 스페인어와 행정학을 전공한 뒤
-개발자를 꿈꾸며 Github 블로그를 개설하게 되었습니다.</p>
+            let aElementURL = document.createElement("a")
+            aElementURL.href = repos.svn_url
+            aElementURL.textContent = repos.svn_url
 
-  </div>
-
-</article>
+            //각 요소를 <div id="repos">에 추가
+            repoUl.append(h2Element)
+            repoUl.append(pElementDesc)
+            repoUl.append(aElementURL)
+            repoUl.append(document.createElement("br"))
+        })
+    }
+    initRepo()
+</script>
 
       </div>
     </main><footer class="site-footer h-card">
