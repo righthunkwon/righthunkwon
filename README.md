@@ -4,6 +4,8 @@
 
 <div>
 	<h1> 🦛 hippoDev 🦛 </h1>
+	<br>
+	<br>
 </div>
 
 <!-- Tech Stack (logos) -->
