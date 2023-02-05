@@ -1,10 +1,9 @@
 
-
-
 <!-- Header -->
 <div align="center">
+  ### 🦛hippoDev🦛
   
-###🦛hippoDev🦛
+  ---
 
 <!-- Ctrl + / : 주석처리 -->
 <!-- Github hits -->
