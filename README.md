@@ -3,16 +3,16 @@
 <!-- Title -->
 
 <div>
-	
+	<br>
 	<h1> 🦛 hippoDev 🦛 </h1>
-	
+	<br>
 </div>
 
 <!-- Tech Stack (logos) -->
 <div>
-	
+	<br>
 	<h3> 📖 Tech Stack 📖 </h3>
-	
+	<br>
 </div>
 
 <div>
