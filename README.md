@@ -5,19 +5,20 @@
 <div align="center">
   <h1> 🦛hippoDev🦛 </h1>
 </div>
-  <div align=center>
 
-	</div>
+<!-- Tech Stack -->
+<div align=center>
+	<h3>📚 Tech Stack 📚</h3>
+</div>
 
 <div>
-	<h3>📚 Tech Stack 📚</h3>
 	<div align="center">
 	<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Conda-Forge&logoColor=white" />
 	<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=Spring&logoColor=white" />
   	<img src="https://img.shields.io/badge/Oracle%20SQL-F80000?style=flat&logo=Oracle&logoColor=white" />
 	<img src="https://img.shields.io/badge/mongodb-47A248?style=flat&logo=mongodb&logoColor=white" />
 </div>
-<!-- Ctrl + / : 주석처리 -->
+	
 <!-- Github hits -->
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Frighthunkwon&count_bg=%23282A2D&title_bg=%23282A2D&icon=github.svg&icon_color=%23FFF7E1&title=Github&edge_flat=false)](https://github.com/righthunkwon)
 <!--Baekjoon tier-->
