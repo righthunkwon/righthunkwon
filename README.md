@@ -1,7 +1,10 @@
 
-<!-- Header -->
 
-<h1> 🦛hippoDev🦛 </h1>
+
+<!-- Header -->
+<div align="center">
+  
+###🦛hippoDev🦛
 
 <!-- Ctrl + / : 주석처리 -->
 <!-- Github hits -->
@@ -17,11 +20,9 @@
 <!-- Top Langs -->
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=righthunkwon)](https://github.com/righthunkwon/github-readme-stats)
 
-
-
 <!-- Once I've used (logos) -->
 <img src="https://img.shields.io/badge/이름-색상코드?style=flat-square&logo=로고명&logoColor=로고색"/>
 
-
+</div>
 
 <!-- Footer -->
