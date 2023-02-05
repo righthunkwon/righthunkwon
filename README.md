@@ -1,7 +1,7 @@
 
 <!-- Header -->
 <div align="center">
-  ### 🦛hippoDev🦛
+  <h1> 🦛hippoDev🦛 </h1>
   
   ---
 
