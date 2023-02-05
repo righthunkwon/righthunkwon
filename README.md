@@ -19,17 +19,20 @@
 </div>
 
 <!--Baekjoon tier-->
+<div>
+	<h3> 🏆 Baekjoon tier 🏆 </h3>
+</div>
+
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=dhtmxk8134)](https://solved.ac/dhtmxk8134)
+	
+<!-- Top Langs -->
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=righthunkwon)](https://github.com/righthunkwon/github-readme-stats)
 	
 <!-- Github stats -->
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=righthunkwon)](https://github.com/righthunkwon/github-readme-stats)
 	
-<!-- Top Langs -->
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=righthunkwon)](https://github.com/righthunkwon/github-readme-stats)
 
-
-	
 
 
 
