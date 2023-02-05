@@ -4,7 +4,7 @@
 <!-- Header -->
 <div align="center">
 
-###🦛hippoDev🦛
+  <h1> 🦛hippoDev🦛 </h1>
 
 <!-- Ctrl + / : 주석처리 -->
 <!-- Github hits -->
