@@ -12,7 +12,7 @@
 <!--Baekjoon tier-->
 <p>🏆 Baekjoon solved rank 🏆</p>
 [![Solved.ac
-프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=dhtmxk8134)](https://solved.ac/dhtmxk8134)
+프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=dhtmxk8134)](https://solved.ac/dhtmxk8134)]
 
 <!-- Github stats -->
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=righthunkwon)](https://github.com/righthunkwon/github-readme-stats)
