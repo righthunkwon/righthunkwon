@@ -4,15 +4,12 @@
 
 <div align=center>
 	<h1> 🦛 hippoDev 🦛 </h1>
-	
-	
+	<br>	
 </div>
 
 <!-- Tech Stack (logos) -->
 <div align=center>
 	<h3> 📖 Tech Stack 📖 </h3>
-	
-	
 </div>
 
 <div align=center>
@@ -20,8 +17,7 @@
 	<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=Spring&logoColor=white" />
   	<img src="https://img.shields.io/badge/Oracle%20SQL-F80000?style=flat&logo=Oracle&logoColor=white" />
 	<img src="https://img.shields.io/badge/mongodb-47A248?style=flat&logo=mongodb&logoColor=white" />
-
-
+	<br>
 </div>
 
 <!--Baekjoon tier-->
