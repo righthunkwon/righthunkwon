@@ -2,8 +2,8 @@
 ![header](https://capsule-render.vercel.app/api?type=soft&color=00AA54&height=200&section=header&text=Hi!%20I'm%20righthun&fontSize=60&animation=scaleIn)
 
 # 👋 Hi there
-Blog: [**Tistory**](https://codingfromtoday.tistory.com/) <br>
-Notion: [**hippoDev**](https://plum-quokka-217.notion.site/hippoDev-128d761ee96d4fd7ab24a880e6547bce)
+**Blog:** [**Tistory**](https://codingfromtoday.tistory.com/) <br>
+**Notion:** [**hippoDev**](https://plum-quokka-217.notion.site/hippoDev-128d761ee96d4fd7ab24a880e6547bce)
 
 ## Career
 🏫 Hankuk University of Foreign Studies (2017/03 ~ 2023/02) <br>
