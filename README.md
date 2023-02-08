@@ -2,7 +2,6 @@
 ![header](https://capsule-render.vercel.app/api?type=soft&color=00AA54&height=200&section=header&text=Hi!%20I'm%20righthun&fontSize=60&animation=scaleIn)
 
 # 👋 Hi there
-
 Blog: [Tistory](https://codingfromtoday.tistory.com/) <br>
 Notion: [hippoDev](https://plum-quokka-217.notion.site/hippoDev-128d761ee96d4fd7ab24a880e6547bce)
 
@@ -25,7 +24,7 @@ Notion: [hippoDev](https://plum-quokka-217.notion.site/hippoDev-128d761ee96d4fd7
 
 ### Analysis
 [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=dhtmxk8134)](https://solved.ac/dhtmxk8134)
-
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg rl=https%3A%2F%2Fgithub.com%2Frighthunkwon&count_bg=%2300AA54&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 	
 ### Top Langs
