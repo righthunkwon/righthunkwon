@@ -8,7 +8,7 @@
 ## Career
 🏫 Hankuk University of Foreign Studies (2017/03 ~ 2023/02) <br>
 🔥 Inflearn Jeju Coding Basecamp Supporters 3rd (2022/09 ~ 2022/11) <br>
-👩‍💻 Multicampus Back-End Dev Java course K-Digital Training (2022/12 ~ ing)
+👩‍ Nomad Coders VanillaJS Challenge 35th (2023/03 ~ 2023/04) <br>
 
 ## Stack
 <div>
