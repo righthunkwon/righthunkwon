@@ -9,6 +9,7 @@
 🏫 Hankuk University of Foreign Studies (2017/03 ~ 2023/02) <br>
 🔥 Inflearn Jeju Coding Basecamp Supporters 3rd (2022/09 ~ 2022/11) <br>
 🏛️ Nomad Coders VanillaJS Challenge 35th (2023/03 ~ 2023/04) <br>
+💻 SAMSUNG SW Academy For Youth (2023/07 ~ ing)
 
 ## Stack
 <div>
