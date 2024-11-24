@@ -6,6 +6,7 @@
 <!-- **Notion:** [**주니어 프론트 성장 공간, 프성공**](https://www.notion.so/righthun/dd055ee9f54445e89cd84d755071f7bd) -->
 
 ## Experiences
+🏢 Fila holdings (2024/07 ~ ing) <br/>
 💻 SAMSUNG SW Academy For Youth (2023/07 ~ 2024/06) <br/>
 🏛️ Nomad Coders VanillaJS Challenge 35th (2023/03 ~ 2023/04) <br/>
 🏫 Hankuk University of Foreign Studies (2017/03 ~ 2023/02) <br/>
